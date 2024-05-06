@@ -1,0 +1,58 @@
+* {
+    color: white;
+}
+
+.Card {
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px #3333;
+    padding: 10px;
+    background-color: rgb(0, 72, 167);
+    gap: 10;
+}
+
+.Card img {
+    width: 160px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.Card:hover {
+    cursor: pointer;
+    border-color: rgb(228, 8, 8);
+    background-color: #000000;
+}
+
+.hide {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hide button {
+    background-color: rgb(192, 54, 0);
+}
+
+h2, h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
